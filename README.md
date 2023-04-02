@@ -18,7 +18,7 @@
     - Tool을 이용하여 동영상을 제작했을 경우 <u>최소 한 곳 이상에 아래와 같이 출처를 표시</u>해주세요.<br>
     (동영상의 설명란 / 댓글 / 동영상 내부 등)
         ```
-        이 동영상은 화이트데브 - Tools for Youtube를 이용하여 제작하였습니다.
+        이 동영상은 Tools for Youtube를 이용하여 제작하였습니다.
         (https://github.com/whitedev7773/youtube)
         ```
 
