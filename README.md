@@ -21,6 +21,6 @@ Tool의 Name 부분을 눌러서 설명문으로 이동합니다.
 ## ✨ Tool을 이용하여 제작된 영상들
 | Name    | Content | Used Tools |
 | ------- | ------- | ------- |
-| [RADWIMPS - 스즈메](https://youtu.be/gg1D8pCznIw) <br> <span style="color: gray">(제작 : 화이트데브)</span>  | <iframe width="256" height="144" src="https://www.youtube-nocookie.com/embed/gg1D8pCznIw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> | Prompt |
+| [RADWIMPS - 스즈메](https://youtu.be/gg1D8pCznIw) <br> <span style="color: gray">(제작 : 화이트데브)</span>  | [![Video Label](http://img.youtube.com/vi/gg1D8pCznIw/0.jpg)](https://youtu.be/gg1D8pCznIw=0s) | Prompt |
 | [요네즈 켄시 - LADY](https://youtu.be/S5ymQZ4OT4g) <br> <span style="color: gray">(제작 : 화이트데브)</span>  | <iframe width="256" height="144" src="https://www.youtube-nocookie.com/embed/S5ymQZ4OT4g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> | Prompt |
 | [요루시카 - 꽃에 망령](https://youtu.be/bw4Tjw1SXpY) <br> <span style="color: gray">(제작 : 화이트데브)</span>  | <iframe width="256" height="144" src="https://www.youtube-nocookie.com/embed/bw4Tjw1SXpY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> | Prompt |
