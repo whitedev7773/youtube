@@ -1,0 +1,80 @@
+.normal {
+    font-weight: 400
+}
+
+.bold {
+    font-weight: 700
+}
+
+.bolder {
+    font-weight: 800
+}
+
+.light {
+    font-weight: 300
+}
+
+body {
+    margin: 10px;
+    background-color: #1dbb30;
+    font-family: 'NanumSquare', sans-serif
+}
+
+#top_nav {
+    background-color: #1aa129;
+    width: 100%;
+    height: 60px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#top_nav > * {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+textarea {
+    font-family: 'NanumSquare', sans-serif;
+    resize: none;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+
+textarea {
+    cursor: pointer;
+    width: 200px;
+    height: 25px;
+    transition: all 0.3s cubic-bezier(0.2, 0, 0, 1);;
+}
+
+textarea:focus {
+    cursor: text;
+    transform: translateY(45%);
+    width: 500px;
+    height: 250px;
+    text-align: center;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.171);
+}
+
+button {
+    cursor: pointer;
+}
+
+button.previous {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    outline: none;
+    border: none;
+}
+
+button.next {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    outline: none;
+    border: none;
+}

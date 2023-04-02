@@ -5,7 +5,7 @@
 ## 📘 Description
 Prompt는 동영상에 가사를 쉽게 넣을 수 있도록 도와줍니다.
 
-> Prompt 링크 : 곧 추가될 예정입니다.
+> Prompt 링크 : https://whitedev7773.github.io/youtube/prompt
 
 <br>
 
