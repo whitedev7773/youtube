@@ -14,11 +14,13 @@
 Tool의 Name 부분을 눌러서 설명문으로 이동합니다.
 | Name    | Description | Version |
 | ------- | ------- | ------- |
-| Prompt  | 자막에 투자하는 시간을 줄여줍니다. | 1.0 |
+| [Prompt](./prompt)  | 자막에 투자하는 시간을 줄여줍니다. | 1.0 |
 
 <br>
 
-## ✨ Tool를 이용하여 제작된 영상들
-- **RADWIMPS - 스즈메** (제작 : 화이트데브)
-> 사용한 툴 : Prompt
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/gg1D8pCznIw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+## ✨ Tool을 이용하여 제작된 영상들
+| Name    | Content | Used Tools |
+| ------- | ------- | ------- |
+| [RADWIMPS - 스즈메](https://youtu.be/gg1D8pCznIw) <br> <span style="color: gray">(제작 : 화이트데브)</span>  | <iframe width="256" height="144" src="https://www.youtube-nocookie.com/embed/gg1D8pCznIw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> | Prompt |
+| [요네즈 켄시 - LADY](https://youtu.be/S5ymQZ4OT4g) <br> <span style="color: gray">(제작 : 화이트데브)</span>  | <iframe width="256" height="144" src="https://www.youtube-nocookie.com/embed/S5ymQZ4OT4g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> | Prompt |
+| [요루시카 - 꽃에 망령](https://youtu.be/bw4Tjw1SXpY) <br> <span style="color: gray">(제작 : 화이트데브)</span>  | <iframe width="256" height="144" src="https://www.youtube-nocookie.com/embed/bw4Tjw1SXpY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> | Prompt |
