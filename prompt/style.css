@@ -1,23 +1,20 @@
-.normal {
-    font-weight: 400
-}
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+@import url(http://fonts.googleapis.com/earlyaccess/notosanssc.css);
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
 
-.bold {
-    font-weight: 700
-}
-
-.bolder {
-    font-weight: 800
-}
-
-.light {
-    font-weight: 300
+@font-face {
+    font-family: 'NanumSquareNeo-Variable';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
 }
 
 body {
+    font-family: 'NanumSquareNeo-Variable';
     margin: 10px;
     background-color: #1dbb30;
-    font-family: 'NanumSquare', sans-serif
+    overflow: hidden;
 }
 
 #top_nav {
@@ -30,12 +27,49 @@ body {
     align-items: center;
 }
 
-#top_nav > * {
+#top_nav>* {
     margin-left: 10px;
     margin-right: 10px;
 }
 
+#title {
+    position: absolute;
+    font-size: 17px;
+    left: 30px;
+    color: white;
+}
+
+input[type="text"] {
+    background-color: white;
+    font-family: 'NanumSquare', sans-serif;
+    padding: 7px;
+    resize: none;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+
+input[type="text"].speed {
+    width: 55px;
+    transition: all 0.4s cubic-bezier(0.485, 0.175, 0.130, 1.250);
+}
+
+input[type="text"].speed:focus {
+    width: 100px;
+}
+
+input[type="text"].lines {
+    text-align: center;
+    width: 20px;
+    transition: all 0.4s cubic-bezier(0.485, 0.175, 0.130, 1.250);
+}
+
+input[type="text"].lines:focus {
+    width: 100px;
+}
+
 textarea {
+    background-color: white;
     font-family: 'NanumSquare', sans-serif;
     resize: none;
     border-radius: 10px;
@@ -43,14 +77,15 @@ textarea {
     border: none;
 }
 
-textarea {
+textarea.lyrics {
     cursor: pointer;
     width: 200px;
     height: 25px;
-    transition: all 0.3s cubic-bezier(0.2, 0, 0, 1);;
+    transition: all 0.5s cubic-bezier(0.485, 0.175, 0.130, 1.250);
 }
 
-textarea:focus {
+textarea.lyrics:focus {
+    font-size: 20px;
     cursor: text;
     transform: translateY(45%);
     width: 500px;
@@ -60,21 +95,170 @@ textarea:focus {
 }
 
 button {
+    background-color: white;
     cursor: pointer;
+    outline: none;
+    border: none;
 }
 
 button.previous {
     width: 30px;
     height: 30px;
     border-radius: 100%;
-    outline: none;
-    border: none;
 }
 
 button.next {
     width: 30px;
     height: 30px;
     border-radius: 100%;
+}
+
+select.textAlign {
+    background-color: rgb(236, 236, 236);
+    font-family: 'NanumSquare', sans-serif;
+    resize: none;
+    border-radius: 10px;
     outline: none;
     border: none;
+    padding: 7px;
+}
+
+div.textAlign-menu {
+    padding-left: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+div.textAlign-menu>span {
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    margin-right: 10px;
+}
+
+div.lyrics-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.lyrics-menu>button {
+    margin-left: 10px;
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+p {
+    margin: -11px !important;
+    font-size: 50px;
+    /* filter: drop-shadow(0px 0px 12px #000000b5); */
+    white-space: nowrap;
+}
+
+i {
+    font-weight: 300;
+}
+
+#자막박스 {
+    transform: translateY(360px);
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+#자막 {
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
+
+p.일어 {
+    font-family: 'Noto Sans JP', 'Noto Sans SC';
+    font-weight: 300;
+}
+
+p.발음,
+p.뜻 {
+    font-family: 'NanumSquare';
+    font-weight: 800;
+}
+
+#자막.등장 {
+    animation: sub-show cubic-bezier(0.2, 0, 0, 1);
+    animation-duration: 0.45s;
+    animation-fill-mode: forwards;
+}
+
+#자막.메인 {
+    animation: sub-to-main cubic-bezier(0.2, 0, 0, 1);
+    animation-duration: 0.45s;
+    animation-fill-mode: forwards;
+}
+
+#자막.퇴장 {
+    animation: main-hide cubic-bezier(0.2, 0, 0, 1);
+    animation-duration: 0.45s;
+    animation-fill-mode: forwards;
+}
+
+#자막.반대 {
+    animation-timing-function: cubic-bezier(1, 0, 0.6, 1) !important;
+    animation-direction: reverse !important;
+}
+
+.얇게 {
+    font-weight: 300 !important;
+}
+
+@keyframes sub-show {
+    0% {
+        transform: translateX(-50%) translateY(400px) scale(0.75, 0.75);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(-50%) translateY(225px) scale(0.75, 0.75);
+        opacity: 0.5;
+    }
+}
+
+@keyframes sub-to-main {
+    0% {
+        transform: translateX(-50%) translateY(225px) scale(0.75, 0.75);
+        opacity: 0.5;
+    }
+
+    100% {
+        transform: translateX(-50%) translateY(0px) scale(1, 1);
+        opacity: 1;
+    }
+}
+
+@keyframes main-hide {
+    0% {
+        transform: translateX(-50%) translateY(0px) scale(1, 1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateX(-50%) translateY(-225px) scale(0.75, 0.75);
+        opacity: 0;
+    }
+}
+
+.left-align>* {
+    text-align: left;
+}
+
+.center-align>* {
+    text-align: center;
+}
+
+.right-align>* {
+    text-align: right;
 }
