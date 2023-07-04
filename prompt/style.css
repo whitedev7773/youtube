@@ -13,7 +13,7 @@
 body {
     font-family: 'NanumSquareNeo-Variable';
     margin: 10px;
-    background-color: #1dbb30;
+    background-color: #00b140;
     overflow: hidden;
 }
 
@@ -172,7 +172,9 @@ i {
 
 #자막 {
     top: 50%;
-    left: 50%;
+    left: 25%;
+    /* left: 50%; */
+    width: 0px; /* 지워야함 */
     transform: translateX(-50%);
     position: absolute;
 }
