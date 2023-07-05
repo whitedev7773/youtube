@@ -10,10 +10,10 @@ var lyrics = [
 ];
 var line = 0;
 
-document.querySelector("#textAlign").addEventListener("input", e => {
-    console.log("글자 정렬 변경");
-    main.className = `${e.target.value}-align`;
-})
+// document.querySelector("#textAlign").addEventListener("input", e => {
+//     console.log("글자 정렬 변경");
+//     main.className = `${e.target.value}-align`;
+// })
 
 document.querySelector("#apply").addEventListener("click", e => {
     line = -1;

@@ -172,9 +172,9 @@ i {
 
 #자막 {
     top: 50%;
-    left: 25%;
-    /* left: 50%; */
-    width: 0px; /* 지워야함 */
+    /* left: 25%; */
+    left: 50%;
+    /* width: 0px; /* 지워야함 */
     transform: translateX(-50%);
     position: absolute;
 }
